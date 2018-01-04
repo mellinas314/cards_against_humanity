@@ -1,0 +1,57 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    background-color:#E4E4E4;
+    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    background-image:-webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #A7A7A7),
+        color-stop(0.51, #E4E4E4)
+    );
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    text-transform:uppercase;
+    width:100%;
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.app p {
+    font-size: 30px;
+    font-weight: bolder;
+    line-height: 45px;
+    margin: 10px;
+    word-break: break-word;
+}
+
+.refresh {
+    border-radius: 5px;
+    background-color: rgb(168, 0, 0);
+    font-size: 18px;
+    line-height: 0;
+    margin: 30px auto 15px;
+    padding: 30px 0;
+    text-align: center;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+    width: 70%;
+}
